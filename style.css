@@ -602,9 +602,9 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
 /************** RESPONSIVE TABLETTE HORIZONTALE ***************/
 
-@media screen and (max-width: 1279px) and (min-width: 769px) {
+@media screen and (max-width: 1279px) {
     #competence_2, #competence_4 {
-        animation: appearLeft linear;
+        animation: appearLeft forwards ease-in-out;
         animation-timeline: view();
         animation-range-start: cover 0%;
         animation-range-end: contain 100%;
@@ -651,7 +651,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
     }
 
     #competence_2, #competence_4 {
-        animation: appearLeft linear;
+        animation: appearLeft forwards ease-in-out;
         animation-timeline: view();
         animation-range-start: cover 0%;
         animation-range-end: contain 100%;
