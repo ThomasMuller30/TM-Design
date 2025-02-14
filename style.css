@@ -610,6 +610,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     .about p {
         padding: 20px;
+        height: 100%;
     }
 
     .competences {
