@@ -602,7 +602,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
 /************** RESPONSIVE TABLETTE HORIZONTALE ***************/
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
     #competence_2, #competence_4 {
         animation: appearLeft forwards ease-in-out;
         animation-timeline: view();
