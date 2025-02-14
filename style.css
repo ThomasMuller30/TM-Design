@@ -609,12 +609,12 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
     }
 
     .competences {
-        height: 280vh;
+        height: 310vh;
         grid-template-columns: 100%;
     }
 
     .competence {
-        height: 65vh;
+        height: 70vh;
         width: 80%;
         padding: 15px;
     }
@@ -625,6 +625,13 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     .card {
         width: 95%;
+    }
+
+    #competence_2, #competence_4 {
+        animation: appearLeft linear;
+        animation-timeline: view();
+        animation-range-start: cover 0%;
+        animation-range-end: contain 100%;
     }
 }
 
