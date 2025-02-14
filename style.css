@@ -609,6 +609,14 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
         animation-range-start: cover 0%;
         animation-range-end: contain 100%;
     }
+
+    .competence {
+        height: 50vh;
+    }
+
+    .card {
+        width: 60%;
+    }
 }
 
 
