@@ -608,6 +608,10 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
         animation-range-end: cover 50%;
     }
 
+    .about p {
+        padding: 20px;
+    }
+
     .competences {
         height: 310vh;
         grid-template-columns: 100%;
