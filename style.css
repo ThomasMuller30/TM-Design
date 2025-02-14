@@ -211,7 +211,6 @@ main {
     animation-timeline: view();
     animation-range-start: cover 0%;
     animation-range-end: contain 100%;
-    left: -1000px;
 }
 
 #competence_2, #competence_4{
@@ -219,7 +218,6 @@ main {
     animation-timeline: view();
     animation-range-start: cover 0%;
     animation-range-end: contain 100%;
-    right: -1000px;
 }
 
 
@@ -578,7 +576,6 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     @keyframes appearLeft {
         0% {
-            position: relative;
             left: -1000px;
         }
         50% {
@@ -593,7 +590,6 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     @keyframes appearRight {
         0% {
-            position: relative;
             right: -1000px;
         }
         50% {
