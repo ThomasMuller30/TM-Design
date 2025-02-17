@@ -619,6 +619,50 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
     }
 }
 
+/************** RESPONSIVE TABLETTE VERTICALE ***************/
+@media screen and (max-width: 767px) {
+    .container_about {
+        height: 170vh;
+    }
+
+    .about {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        animation-range-end: cover 50%;
+    }
+
+    .about p {
+        padding: 20px;
+        height: 110vh;
+    }
+
+    .competences {
+        height: 310vh;
+        grid-template-columns: 100%;
+    }
+
+    .competence {
+        height: 75vh;
+        width: 80%;
+        padding: 15px;
+    }
+
+    #cards {
+        padding: 10px 0;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    #competence_2, #competence_4 {
+        animation: appearLeft forwards ease-in-out;
+        animation-timeline: view();
+        animation-range-start: cover 0%;
+        animation-range-end: contain 100%;
+    }
+}
 
 /************** RESPONSIVE TELEPHONE ***************/
 
