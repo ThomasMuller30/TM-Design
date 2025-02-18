@@ -622,7 +622,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 /************** RESPONSIVE TABLETTE VERTICALE ***************/
 @media screen and (max-width: 1024px) {
     .container_about {
-        height: 170vh;
+        height: 100vh;
     }
 
     .about {
@@ -638,7 +638,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
     }
 
     .competences {
-        height: 310vh;
+        height: 250vh;
         grid-template-columns: 100%;
     }
 
