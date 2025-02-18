@@ -634,7 +634,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     .about p {
         padding: 20px;
-        height: 110vh;
+        height: 50vh;
     }
 
     .competences {
@@ -643,7 +643,7 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
     }
 
     .competence {
-        height: 75vh;
+        height: 40vh;
         width: 80%;
         padding: 15px;
     }
