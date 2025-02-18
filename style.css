@@ -634,11 +634,11 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
 
     .about p {
         padding: 20px;
-        height: 50vh;
+        height: 30vh;
     }
 
     .competences {
-        height: 250vh;
+        height: 210vh;
         grid-template-columns: 100%;
     }
 
@@ -709,15 +709,6 @@ body::-webkit-scrollbar, body::-webkit-scrollbar-button { display: none; } /* Ch
         animation-range-end: contain 100%;
     }
 }
-
-
-
-
-
-
-
-
-
 
 /** INFORMATIONS **/
 
